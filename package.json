@@ -1,14 +1,22 @@
 {
   "name": "@kittycad/kcl.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/KittyCAD/kcl.ts"
   },
-  "os": ["linux", "win32", "darwin"],
-  "cpu": ["x64", "arm", "arm64"],
+  "os": [
+    "linux",
+    "win32",
+    "darwin"
+  ],
+  "cpu": [
+    "x64",
+    "arm",
+    "arm64"
+  ],
   "optionalDependencies": {
     "@kittycad/kcl.ts-linux-arm-musleabihf": "^0.1.0",
     "@kittycad/kcl.ts-linux-arm-gnueabihf": "^0.1.0",
