@@ -1,11 +1,29 @@
 {
   "name": "@kittycad/kcl.ts",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/KittyCAD/kcl.ts"
+  },
+  "os": ["linux", "win32", "darwin"],
+  "cpu": ["x64", "arm", "arm64"],
+  "optionalDependencies": {
+    "@kittycad/kcl.ts-linux-arm-musleabihf": "^0.1.0",
+    "@kittycad/kcl.ts-linux-arm-gnueabihf": "^0.1.0",
+    "@kittycad/kcl.ts-linux-riscv64-gnu": "^0.1.0",
+    "@kittycad/kcl.ts-darwin-universal": "^0.1.0",
+    "@kittycad/kcl.ts-linux-arm64-musl": "^0.1.0",
+    "@kittycad/kcl.ts-linux-arm64-gnu": "^0.1.0",
+    "@kittycad/kcl.ts-android-arm64": "^0.1.0",
+    "@kittycad/kcl.ts-linux-x64-gnu": "^0.1.0",
+    "@kittycad/kcl.ts-android-arm-eabi": "^0.1.0",
+    "@kittycad/kcl.ts-linux-x64-musl": "^0.1.0",
+    "@kittycad/kcl.ts-darwin-arm64": "^0.1.0",
+    "@kittycad/kcl.ts-darwin-x64": "^0.1.0",
+    "@kittycad/kcl.ts-win32-arm64-msvc": "^0.1.0",
+    "@kittycad/kcl.ts-win32-x64-msvc": "^0.1.0"
   },
   "napi": {
     "name": "kcl.ts",
