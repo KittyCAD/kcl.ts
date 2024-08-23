@@ -1,0 +1,18 @@
+{
+  "name": "@kittycad/kcl.ts-android-arm64",
+  "version": "0.0.0",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "kcl.ts.android-arm64.node",
+  "files": [
+    "kcl.ts.android-arm64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
