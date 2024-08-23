@@ -197,4 +197,3 @@ Cargo.lock
 *.node
 *.d.ts
 *.js
-.yarn*
